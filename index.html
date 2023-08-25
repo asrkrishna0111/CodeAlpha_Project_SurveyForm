@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Survey Form</title>
+</head>
+<body>
+    <form action="#" class="form">
+        <h1 class="text-center">Survery Form</h1>
+        <div class="progressbar">
+            <div class="progress" id="progress">
+            </div>
+            <div class="progress-step progress-step-active" data-title="first"></div>
+            <div class="progress-step" data-title="second"></div>
+            <div class="progress-step" data-title="third"></div>
+            <div class="progress-step" data-title="fourth"></div>
+        </div>
+        <div class="form-step form-step-active">
+            <div class="input-group">
+                <label for="username">Name</label>
+                <input type="text" name="username" id="username" />
+            </div>
+            <div class="input-group">
+                <label for="company">Company/Organisation</label>
+                <input type="text" name="company" id="company" />
+            </div>
+            <div class="input-group">
+                <label for="position">Designation</label>
+                <input type="text" name="position" id="position"/>
+            </div>
+            <div class="">
+                <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="mobileno">Mobile No</label>
+                <input type="text" name="mobileno" id="mobileno" />
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email"/>
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <a href="#" class="btn btn-next">Next</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob" />
+            </div>
+            <div class="input-group">
+                <label for="domain">Domain</label>
+                <input type="text" name="domain" id="domain"/>
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <a href="#" class="btn btn-next">Next</a>
+            </div>
+        </div>
+        <div class="form-step">
+            <div class="input-group">
+                <label for="Innovation">Innovation Prototye</label>
+                <input type="text" name="Innovation" id="Innovation" />
+            </div>
+            <div class="btns-group">
+                <a href="#" class="btn btn-prev">Previous</a>
+                <input type="submit" value="Submit" class="btn" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
